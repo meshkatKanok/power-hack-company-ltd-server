@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const client = require("../Connection/connection");
+const client = require("../ClientConnect/connection");
 const billingCollection = client.db("power-pack").collection("billings");
 
 const addBillingController = async(req, res) =>{

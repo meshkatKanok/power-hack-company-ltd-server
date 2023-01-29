@@ -1,4 +1,4 @@
-const client = require("../Connection/connection");
+const client = require("../ClientConnect/connection");
 const usersCollection = client.db("power-pack").collection("users");
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken");
